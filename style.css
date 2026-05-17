@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(250, 239, 239);
+   font-family: "Roboto", sans-serif;
+ }
+
+.lines{
+    font-size: 5rem;
+    color: rgb(100, 7, 7);
+    line-height: 75px;
+    letter-spacing: -3px;
+   
+   
+}
+
+.first{
+    margin-top: 11vh;
+    margin-left: 20vw;
+    
+}
+
+
+
+.second{
+    margin-left: 33vw;
+   
+}
+
+.line3{
+    color: rgb(148, 128, 128);
+}
+
+.word_img{
+    display: flex;
+    align-items: center;
+}
+.image img{
+    width: 140px;
+    height: 60px;
+    object-fit: cover;
+margin: 0 20px 0 20px;
+border-radius: 100px;
+}
+
+.small{
+     margin-left: 33vw;
+     margin-top: 30px;
+     color: rgb(137, 48, 48);
+}
+
+.image_boxes{
+    display: flex;
+    justify-content:end;
+    gap: 30px;
+    padding-right: 50px;
+    margin-top: 40px;
+}
+
+.image_boxes div img:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.box1 img{
+height: 325px;
+width: 300px;
+border-radius: 20px;
+object-fit: cover;
+}
+
+.box2 img{
+height: 325px;
+width: 300px;
+border-radius: 20px;
+object-fit: cover;
+}
+
+.box3 img{
+height: 325px;
+width: 300px;
+border-radius: 20px;
+object-fit: cover;
+}
+
+.your{
+    color: rgb(148, 128, 128);
+}
+
+.line5{
+     margin-top: 23vh;
+    margin-left: 25vw;
+}
+.line6{
+    
+    margin-left: 20vw;
+}
+
+.small_last{
+     margin-left: 33vw;
+     margin-top: 30px;
+     color: rgb(137, 48, 48);
+}
+
+.sss {
+    display: inline-block; 
+    margin-left: 25px;
+    
+}
+
+
