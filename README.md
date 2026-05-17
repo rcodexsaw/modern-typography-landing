@@ -1,4 +1,4 @@
-# Brand Landing Page 🚀
+# Modern Typography Landing Page 🚀
 
 Hey! Ye mera ek simple HTML aur CSS ka project hai jisme maine ek modern brand landing page ka design banaya hai. 
 
