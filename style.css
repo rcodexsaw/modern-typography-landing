@@ -112,6 +112,103 @@ object-fit: cover;
 
 .sss {
     display: inline-block; 
+
+
+    
+@media (max-width: 768px) {
+
+    .lines {
+        font-size: 2.5rem;
+        line-height: 45px;
+        letter-spacing: -1px;
+        padding: 0 20px;
+    }
+
+
+    .first {
+        margin-left: 0;
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+
+    .second {
+        margin-left: 0;
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+
+    .line5 {
+        margin-left: 0;
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+
+    .line6 {
+        margin-left: 0;
+        padding: 0 20px;
+    }
+
+    .small,
+    .small_last {
+        margin-left: 0;
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+
+
+    .word_img {
+        display: inline;
+        word-wrap: break-word;
+    }
+
+    .image {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .image img {
+        width: 90px;
+        height: 45px;
+        margin: 0 10px;
+    }
+
+
+    br {
+        display: none;
+    }
+
+    .small,
+    .small_last {
+        font-size: 1rem;
+    }
+
+    .sss {
+        margin-left: 0;
+    }
+
+
+    .image_boxes {
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0;
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    
+.image_boxes div {
+    width: 90%;
+    aspect-ratio: 4/3;
+}
+
+.image_boxes div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+}
     margin-left: 25px;
     
 }
